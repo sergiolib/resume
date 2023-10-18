@@ -103,7 +103,7 @@
 {{{cvtag(Machine Learning)}}}
 {{{cvtag(Data Engineering)}}}
 {{{cvtag(MLOps)}}}
-{{{par-div}}}
+\medskip
 
 *** Thesis                                                           :ignore:
 
@@ -116,7 +116,7 @@
 {{{cvtag(CGANs)}}}
 {{{cvtag(PyTorch)}}}
 {{{cvtag(Research)}}}
-{{{par-div}}}
+\medskip
 
 *** ALGES :ignore:
 
@@ -136,8 +136,6 @@
 
 ** Main Consultancy Assignments
 *** Smart meters                                                     :ignore:
-# {{{divider}}}
-
 {{{cvevent(Smart Meters, IsMobile)}}}
 
 - Assessed and evaluated image ML model built for optical character recognition from electric meters using mobile phones
@@ -147,7 +145,7 @@
 {{{cvtag(Tensorflow)}}}
 # {{{cvtag(Optimal control)}}}
 
-{{{divider}}}
+\medskip
 
 *** NoBias                                                           :ignore:
 
@@ -162,7 +160,7 @@
 {{{cvtag(Python)}}}
 {{{cvtag(Svelte)}}}
 
-{{{divider}}}
+\medskip
 
 *** Resource optimization :ignore:noexport:
 {{{cvevent(Developer and tech lead Resource Optimization, Internal)}}}
@@ -172,7 +170,7 @@
 {{{cvtag(Python)}}}
 {{{cvtag(Google Compute Engine)}}}
 
-{{{divider}}}
+\medskip
 
 *** Cucumbers                                                        :ignore:
 {{{cvevent(Circular product development, Research/internal)}}}
@@ -186,7 +184,7 @@
 {{{cvtag(Object detection)}}}
 {{{cvtag(Python)}}}
 
-{{{divider}}}
+\medskip
 
 *** Max Burgers                                                      :ignore:
 {{{cvevent(Data Engineer for analytics team, Max Burgers)}}}
@@ -198,7 +196,7 @@
 {{{cvtag(REST/SOAP APIs)}}}
 {{{cvtag(SQL)}}}
 
-{{{divider}}}
+\medskip
 
 *** Telia :ignore:
 {{{cvevent(Data Engineer for Revenue Assurance PoC, Telia)}}}
@@ -212,7 +210,7 @@
 {{{cvtag(Airflow)}}}
 {{{cvtag(SQL)}}}
 
-{{{divider}}}
+\medskip
 * CV Column 2 :ignore:
 # Switch to the right column - will automatically move to the next page.
 #+begin_export latex
@@ -237,6 +235,7 @@
 {{{cvskill(Scala/Spark, 4)}}}
 {{{cvskill(Tensorflow/Keras, 4)}}}
 {{{cvskill(Typescript, 4)}}}
+\smallskip
 
 ** About Me
 - Versatile, flexible Machine Learning and Data Engineer that delivers always with the highest professionalism.
@@ -284,16 +283,17 @@ Intelligence course.)}}}
 
 {{{cvachievement(\faTrophy, Alumnos destacados, 2013 and 2014 among the best students in Electrical Engineering at University of Chile)}}}
 
-{{{divider}}}
+\smallskip
 
 ** Languages
+
 {{{cvskill(Spanish (native), 5)}}}
 
 {{{cvskill(English (professional), 5)}}}
 
 {{{cvskill(Swedish (A2), 2)}}}
 
-{{{divider}}}
+\smallskip
 
 ** Referees
 - Referees provided on request
