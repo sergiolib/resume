@@ -1,0 +1,311 @@
+* Config/Preamble :noexport:
+** LaTeX Config
+#+BEGIN_SRC emacs-lisp :exports none  :results none :eval always
+(setq org-latex-logfiles-extensions (quote ("lof" "lot" "tex~" "aux" "idx" "log" "out" "toc" "nav" "snm" "vrb" "dvi" "fdb_latexmk" "blg" "brf" "fls" "entoc" "ps" "spl" "bbl" "xmpi" "run.xml" "bcf")))
+(add-to-list 'org-latex-classes
+             '("altacv" "\\documentclass[10pt,a4paper,ragged2e,withhyper]{altacv}
+
+% Change the page layout if you need to
+\\geometry{left=1.25cm,right=1.25cm,top=1.5cm,bottom=1.5cm,columnsep=1.2cm}
+
+% Use roboto and lato for fonts
+\\renewcommand{\\familydefault}{\\sfdefault}
+
+% Change the colours if you want to
+\\definecolor{SlateGrey}{HTML}{2E2E2E}
+\\definecolor{LightGrey}{HTML}{666666}
+\\definecolor{DarkPastelRed}{HTML}{450808}
+\\definecolor{PastelRed}{HTML}{8F0D0D}
+\\definecolor{GoldenEarth}{HTML}{E7D192}
+\\colorlet{name}{black}
+\\colorlet{tagline}{PastelRed}
+\\colorlet{heading}{DarkPastelRed}
+\\colorlet{headingrule}{GoldenEarth}
+\\colorlet{subheading}{PastelRed}
+\\colorlet{accent}{PastelRed}
+\\colorlet{emphasis}{SlateGrey}
+\\colorlet{body}{LightGrey}
+
+% Change some fonts, if necessary
+\\renewcommand{\\namefont}{\\Huge\\rmfamily\\bfseries}
+\\renewcommand{\\personalinfofont}{\\footnotesize}
+\\renewcommand{\\cvsectionfont}{\\LARGE\\rmfamily\\bfseries}
+\\renewcommand{\\cvsubsectionfont}{\\large\\bfseries}
+
+% Change the bullets for itemize and rating marker
+% for \cvskill if you want to
+\\renewcommand{\\itemmarker}{{\\small\\textbullet}}
+\\renewcommand{\\ratingmarker}{\\faCircle}
+"
+
+               ("\\cvsection{%s}" . "\\cvsection*{%s}")
+               ("\\cvevent{%s}" . "\\cvevent*{%s}")))
+(setq org-latex-packages-alist 'nil)
+(setq org-latex-default-packages-alist
+      '(("rm" "roboto"  t)
+        ("defaultsans" "lato" t)
+        ("" "paracol" t)
+        ))
+#+END_SRC
+#+LATEX_CLASS: altacv
+#+LATEX_HEADER: \columnratio{0.6} % Set the left/right column width ratio to 6:4.
+#+LATEX_HEADER: \usepackage[bottom]{footmisc}
+
+** Exporter Settings
+#+AUTHOR: Sergio Liberman Bronfman
+#+EXPORT_FILE_NAME: ./curriculum-vitae.pdf
+#+OPTIONS: toc:nil title:nil H:1
+** Macros
+#+MACRO: cvevent \cvevent{$1}{$2}{$3}{$4}
+#+MACRO: cvachievement \cvachievement{$1}{$2}{$3}{$4}
+#+MACRO: cvtag \cvtag{$1}
+#+MACRO: cvskill \cvskill{$1}{$2}
+#+MACRO: divider \divider
+#+MACRO: par-div \par\divider
+#+MACRO: new-page \newpage
+* CV Header :ignore:
+** Photo & Tagline :ignore:
+#+begin_export latex
+\name{Sergio Liberman Bronfman}
+\tagline{Machine Learning \& Data Engineer}
+#+end_export
+
+** Personal Info :ignore:
+#+begin_export latex
+\personalinfo{
+  %\homepage{www.aidanscannell.com}
+  \email{sergiolib@gmail.com}
+  \phone{+46 73 9254482}
+  \location{Stockholm, Sweden}
+  \github{sergiolib}
+  \linkedin{sergio-liberman-bronfman}
+  %\dob{25 September 1990}
+  %\driving{Swedish & Chilean driving license}
+}
+\makecvheader
+#+end_export
+
+* CV Column 1 :ignore:
+#+begin_export latex
+\begin{paracol}{2}
+#+end_export
+** Recent workplaces
+*** Substorm                                                         :ignore:
+
+{{{cvevent(Machine Learning Developer / Data Engineer, Substorm, Jan 2021 - Ongoing, Stockholm\, Sweden)}}}
+
+- Consultant for Machine Learning, Data Engineering, ML Ops, and software development areas
+- Responsible for internal cloud services maintenance. Developer of CI/CD guidelines such as scheduling services, testing and building pipelines, containerization, and multi-stage environments for projects and services
+- Tech lead for important internal projects within the company
+- Main developer and maintainer of multiple services and products used by customers
+- Tutoring of thesis students and interns
+
+{{{cvtag(Machine Learning)}}}
+{{{cvtag(Data Engineering)}}}
+{{{cvtag(MLOps)}}}
+{{{par-div}}}
+
+*** Thesis                                                           :ignore:
+
+{{{cvevent(Thesis project and internship, Elekta, 2020, Stockholm\, Sweden)}}}
+
+- Dose prediction from partial dose calculations using conditional generative adversarial networks
+- Generative ML models designed for image transformations are used to calculate radiotherapy doses more efficiently than traditional methods
+# - Geometric transformations for efficient prediction of radiotherapy dose (examples: voxel modeling, projections, prediction of residuals, single/multiple beams superposition)
+
+{{{cvtag(CGANs)}}}
+{{{cvtag(PyTorch)}}}
+{{{cvtag(Research)}}}
+{{{par-div}}}
+
+*** ALGES :ignore:
+
+{{{cvevent(Research and Development Engineer, Advanced Laboratory for Geostatistical Supercomputing (ALGES), Jul 2014 - Aug 2018, Santiago\, Chile)}}}
+
+- Main developer in multiple projects with partial or full state funding in Chile related to geo-metallurgical variables (ore) estimation using hyperspectral images
+- Developed algorithms for spatial and visual segmentation, gathered datasets of drill cores, explored spectral unmixing, and improved detection of crystals with alternative sensors using Machine Learning techniques[fn:1]
+- Developed exploration software with fast labeling functions for integrating expert knowledge of geologists into prediction algorithms
+- Participated in the development of U-Fo, ALGES software for mineral estimation. Wrote a surface unfolding algorithm (ISOMAP) for it.
+
+{{{cvtag(Computer Vision)}}}
+{{{cvtag(Embedded programming)}}}
+{{{cvtag(Machine Learning)}}}
+
+** Newpage :ignore:
+{{{new-page}}}
+
+** Main Consultancy Assignments
+*** Smart meters                                                     :ignore:
+# {{{divider}}}
+
+{{{cvevent(Smart Meters, IsMobile)}}}
+
+- Assessed and evaluated image ML model built for optical character recognition from electric meters using mobile phones
+- Improved portability of the model by optimizing smaller backbone without impacting performance
+
+{{{cvtag(Python)}}}
+{{{cvtag(Tensorflow)}}}
+# {{{cvtag(Optimal control)}}}
+
+{{{divider}}}
+
+*** NoBias                                                           :ignore:
+
+{{{cvevent(NoBias, Research/Internal)}}}
+
+- Developed a system for removing gender bias of text, provide gender neutral suggestions and educate user to improve writing with less gender bias
+- Initial solution used transformers and word embeddings. The newer prototypes use large language models such as GPT-4 and Llama 2
+- The project was co-developed with Luleå Tekniska Universitetet with the support of Vinnova
+- A demo is available[fn:2]
+{{{cvtag(APIs)}}}
+{{{cvtag(AWS)}}}
+{{{cvtag(Python)}}}
+{{{cvtag(Svelte)}}}
+
+{{{divider}}}
+
+*** Resource optimization :ignore:noexport:
+{{{cvevent(Developer and tech lead Resource Optimization, Internal)}}}
+
+- Developed proof of concept to create an optimal schedule of consultancy resources using convex optimization
+  
+{{{cvtag(Python)}}}
+{{{cvtag(Google Compute Engine)}}}
+
+{{{divider}}}
+
+*** Cucumbers                                                        :ignore:
+{{{cvevent(Circular product development, Research/internal)}}}
+
+- Industial collaboration project funded by Vinnova to reduce pesticides use and detect early problems in plantations
+- Creted image classification and object detetion model for detecting mold, insects and other illnesses in cucumber greenhouse plantations
+- Developed an acquistion app for mobile phones to gather data directly from experts in greenhouses of Skåne
+  
+{{{cvtag(AWS Amplify)}}}
+{{{cvtag(Classification)}}}
+{{{cvtag(Object detection)}}}
+{{{cvtag(Python)}}}
+
+{{{divider}}}
+
+*** Max Burgers                                                      :ignore:
+{{{cvevent(Data Engineer for analytics team, Max Burgers)}}}
+
+- Development of data source connectors for data ingestion software
+
+{{{cvtag(C\#)}}}
+{{{cvtag(Python)}}}
+{{{cvtag(REST/SOAP APIs)}}}
+{{{cvtag(SQL)}}}
+
+{{{divider}}}
+
+*** Telia :ignore:
+{{{cvevent(Data Engineer for Revenue Assurance PoC, Telia)}}}
+
+- Developed proof of concept for quantifying leakage of revenue across network and billing layers within Telia’s platforms
+- Estimation of leakage was up to 1%. Diagnosed Telia’s income could increase just by avoiding wrong invoices to consumers
+- Collaboration with team of analysts from revenue assuarance team, data analysts and data engineers from Telia
+
+{{{cvtag(Scala/Spark)}}}
+{{{cvtag(Hive)}}}
+{{{cvtag(Airflow)}}}
+{{{cvtag(SQL)}}}
+
+{{{divider}}}
+* CV Column 2 :ignore:
+# Switch to the right column - will automatically move to the next page.
+#+begin_export latex
+\switchcolumn
+#+end_export
+
+** Skills
+{{{cvskill(AWS, 5)}}}
+{{{cvskill(Backend development, 5)}}}
+{{{cvskill(C\#, 5)}}}
+{{{cvskill(Emacs/Elisp, 5)}}}
+{{{cvskill(Git, 5)}}}
+{{{cvskill(Python, 5)}}}
+{{{cvskill(PyTorch, 5)}}}
+{{{cvskill(Scikit Learn, 5)}}}
+{{{cvskill(SQL, 5)}}}
+{{{cvskill(Terraform, 5)}}}
+{{{cvskill(Azure, 4)}}}
+{{{cvskill(C/C++, 4)}}}
+{{{cvskill(OpenCV, 4)}}}
+{{{cvskill(Rust, 4)}}}
+{{{cvskill(Scala/Spark, 4)}}}
+{{{cvskill(Tensorflow/Keras, 4)}}}
+{{{cvskill(Typescript, 4)}}}
+
+** About Me
+- Versatile, flexible Machine Learning and Data Engineer that delivers always with the highest professionalism.
+
+- Background in Electrical Engineering specialized in signals processing and computer intelligence who graduated from University of Chile. I graduated from KTH, where I obtained a Master in Machine Learning.
+
+- What moves me is making data driven technology impact people’s routines positively.
+
+- I enjoy working in multidiciplinary groups and have experience in Agile working environments.
+
+- I am responsible, respectful, serious and dedicated. I always aim to keep learning, improving my skills.
+
+- My strengths are my capacity to provide meaningful ideas, my quality work through which I pursue excellence, and the general enthusiasm that I print in my daily actions.
+
+- I was born in Santiago, Chile in September, 1990. I Live in Stockholm since August, 2018.
+
+- I love spending time with my friends and family. My hobbies include traveling, swimming, running, reading, watching series or movies, working in side projects, and keeping myself up to date with tech.
+
+** Newpage :ignore: 
+{{{new-page}}}
+
+** Education
+*** KTH :ignore:
+{{{cvevent(MSc. Machine Learning, Kungliga Tekniska Högskolan, 2020 - 2022, Stockholm\, Sweden)}}}
+*** UChile :ignore:
+{{{cvevent(BSc. and professional title in Electrical Engineering, University of Chile, 2009 - 2016, Santiago\, Chile)}}}
+
+** Achievements 
+{{{cvachievement(\faCertificate, Udemy, Certificate in Scala/Spark)}}}
+
+{{{divider}}}
+
+{{{cvachievement(\faTrophy, Excellence scholarship laureate, Becas Chile 2019 en Áreas prioritarias.)}}}
+
+{{{divider}}}
+
+{{{cvachievement(\faTrophy,KTH Hattrick award, Awarded to students with A’s in every programming assignment in Artificial
+Intelligence course.)}}}
+
+{{{divider}}}
+
+{{{cvachievement(\faTrophy, University of Chile maximal distinction, Graduated from University of Chile with the highest grades.)}}}
+
+{{{divider}}}
+
+{{{cvachievement(\faTrophy, Alumnos destacados, 2013 and 2014 among the best students in Electrical Engineering at University of Chile)}}}
+
+{{{divider}}}
+
+** Languages
+{{{cvskill(Spanish (native), 5)}}}
+
+{{{cvskill(English (professional), 5)}}}
+
+{{{cvskill(Swedish (A2), 2)}}}
+
+{{{divider}}}
+
+** Referees
+- Referees provided on request
+  
+* Back Matter :ignore:
+#+begin_export latex
+\end{paracol}
+\end{document}
+#+end_export
+
+* Footnotes
+[fn:2] Latest version is live in [[https://dev.nobias.se][https://dev.nobias.se]]
+
+[fn:1] For more information, read our paper: Egaña, Á.F.; Santibáñez-Leal, F.A.; Vidal, C.; Díaz, G.; Liberman, S.; Ehrenfeld, A. A Robust Stochastic Approach to Mineral Hyperspectral Analysis for Geometallurgy. Minerals 2020, 10, 1139. [[https://doi.org/10.3390/min10121139][https://doi.org/10.3390/min10121139]]
+
