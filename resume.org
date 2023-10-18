@@ -49,7 +49,6 @@
 #+END_SRC
 #+LATEX_CLASS: altacv
 #+LATEX_HEADER: \columnratio{0.6} % Set the left/right column width ratio to 6:4.
-#+LATEX_HEADER: \usepackage[bottom]{footmisc}
 
 ** Exporter Settings
 #+AUTHOR: Sergio Liberman Bronfman
