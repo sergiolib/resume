@@ -206,7 +206,7 @@
 
 - Developed proof of concept for quantifying leakage of revenue across network and billing layers within Telia’s platforms
 - Estimation of leakage was up to 1%. Diagnosed Telia’s income could increase just by avoiding wrong invoices to consumers
-- Collaboration with team of analysts from revenue assuarance team, data analysts and data engineers from Telia
+- Collaboration with team of analysts from revenue assurance team, data analysts and data engineers from Telia
 
 {{{cvtag(Scala/Spark)}}}
 {{{cvtag(Hive)}}}
