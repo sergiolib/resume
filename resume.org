@@ -95,20 +95,22 @@
 ** Empleos recientes
 *** Substorm                                                         :ignore:
 
-{{{cvevent(Machine Learning Developer / Data Engineer, Substorm, Jan 2021 - Ongoing, Stockholm\, Sweden)}}}
+{{{cvevent(Desarrollador Senior de Machine Learning, Substorm, Ene 2021 - Actualidad, Estocolmo\, Suecia)}}}
 
-- Consultant for Machine Learning, Data Engineering, ML Ops, and software development areas
-- Responsible for internal cloud services maintenance. Developer of CI/CD guidelines such as scheduling services, testing and building pipelines, containerization, and multi-stage environments for projects and services
-- Tech lead for important internal projects within the company
-- Main developer and maintainer of multiple services and products used by customers
-- Tutoring of thesis students and interns
+- Consultoría en áreas de desarrollo de aplicaciones con Machine Learning, Ingeniería de Datos, ML Ops, y desarrollo de software
+- Principal responsable de infrastructura en la nube.
+- Desarrollador de pipelines CI/CD tales como scheduling de tareas, unit/integration testing, containerización de servicios, y sistemas multi-entorno para proyectos y servicios
+- Líder técnico en proyectos internos y externos
+- Desarrollador principal y mantenedor de múltiples servicios y productos utilizados por clientes
+- Tutor de estudiantes de tésis y practicantes
 
 {{{cvtag(Machine Learning)}}}
 {{{cvtag(Data Engineering)}}}
-{{{cvtag(MLOps)}}}
+{{{cvtag(ML/DevOps)}}}
 \medskip
+\newline
 
-*** Thesis                                                           :ignore:
+*** Tésis                                                          :ignore:
 
 {{{cvevent(Thesis project and internship, Elekta, 2020, Stockholm\, Sweden)}}}
 
@@ -120,6 +122,7 @@
 {{{cvtag(PyTorch)}}}
 {{{cvtag(Research)}}}
 \medskip
+\newline
 
 *** ALGES :ignore:
 
