@@ -70,7 +70,7 @@
 ** Photo & Tagline :ignore:
 #+begin_export latex
 \name{Sergio Liberman Bronfman}
-\tagline{Machine Learning \& Data Engineer}
+\tagline{Ingeniero en Machine Learning \& Ingeniero de Datos}
 #+end_export
 
 ** Personal Info :ignore:
@@ -79,7 +79,7 @@
   %\homepage{www.aidanscannell.com}
   \email{sergiolib@gmail.com}
   \phone{+46 73 9254482}
-  \location{Stockholm, Sweden}
+  \location{Santiago, Chile}
   \github{sergiolib}
   \linkedin{sergio-liberman-bronfman}
   %\dob{25 September 1990}
@@ -92,7 +92,7 @@
 #+begin_export latex
 \begin{paracol}{2}
 #+end_export
-** Recent workplaces
+** Empleos recientes
 *** Substorm                                                         :ignore:
 
 {{{cvevent(Machine Learning Developer / Data Engineer, Substorm, Jan 2021 - Ongoing, Stockholm\, Sweden)}}}
@@ -137,7 +137,7 @@
 ** Newpage :ignore:
 {{{new-page}}}
 
-** Main Consultancy Assignments
+** Principales proyectos
 *** Smart meters                                                     :ignore:
 {{{cvevent(Smart Meters, IsMobile)}}}
 
@@ -220,8 +220,9 @@
 \switchcolumn
 #+end_export
 
-** Skills
+** Habilidades
 {{{cvskill(AWS, 5)}}}
+{{{cvskill(Azure, 5)}}}
 {{{cvskill(Backend development, 5)}}}
 {{{cvskill(C\#, 5)}}}
 {{{cvskill(Emacs/Elisp, 5)}}}
@@ -231,7 +232,6 @@
 {{{cvskill(Scikit Learn, 5)}}}
 {{{cvskill(SQL, 5)}}}
 {{{cvskill(Terraform, 5)}}}
-{{{cvskill(Azure, 4)}}}
 {{{cvskill(C/C++, 4)}}}
 {{{cvskill(OpenCV, 4)}}}
 {{{cvskill(Rust, 4)}}}
@@ -240,7 +240,7 @@
 {{{cvskill(Typescript, 4)}}}
 \smallskip
 
-** About Me
+** Acerca de mi
 - Versatile, flexible Machine Learning and Data Engineer that delivers always with the highest professionalism.
 
 - Background in Electrical Engineering specialized in signals processing and computer intelligence who graduated from University of Chile. I graduated from KTH, where I obtained a Master in Machine Learning.
@@ -260,13 +260,13 @@
 ** Newpage :ignore: 
 {{{new-page}}}
 
-** Education
+** Educación
 *** KTH :ignore:
 {{{cvevent(MSc. Machine Learning, Kungliga Tekniska Högskolan, 2020 - 2022, Stockholm\, Sweden)}}}
 *** UChile :ignore:
 {{{cvevent(BSc. and professional title in Electrical Engineering, University of Chile, 2009 - 2016, Santiago\, Chile)}}}
 
-** Achievements 
+** Logros
 {{{cvachievement(\faCertificate, Udemy, Certificate in Scala/Spark)}}}
 
 {{{divider}}}
@@ -288,7 +288,7 @@ Intelligence course.)}}}
 
 \smallskip
 
-** Languages
+** Lenguajes
 
 {{{cvskill(Spanish (native), 5)}}}
 
@@ -298,7 +298,7 @@ Intelligence course.)}}}
 
 \smallskip
 
-** Referees
+** Referencias
 - Referees provided on request
   
 * Back Matter :ignore:
