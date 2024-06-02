@@ -179,7 +179,7 @@
 {{{cvevent(Circular product development, Research/internal)}}}
 
 - Industial collaboration project funded by Vinnova to reduce pesticides use and detect early problems in plantations
-- Creted image classification and object detetion model for detecting mold, insects and other illnesses in cucumber greenhouse plantations
+- Created image classification and object detetion model for detecting mold, insects and other illnesses in cucumber greenhouse plantations
 - Developed an acquistion app for mobile phones to gather data directly from experts in greenhouses of Skåne
   
 {{{cvtag(AWS Amplify)}}}
