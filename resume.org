@@ -103,7 +103,7 @@
 - Líder técnico en proyectos internos y externos
 - Desarrollador principal y mantenedor de múltiples servicios y productos utilizados por clientes
 - Tutor de estudiantes de tésis y practicantes
-- Acenso a Senior en nov 2023
+- Ascenso a Senior en nov 2023
 
 {{{cvtag(Machine Learning)}}}
 {{{cvtag(Data Engineering)}}}
@@ -133,7 +133,7 @@
 - Desarrollo de algoritmos de segmentación espacial y visual, adquisición de imágenes de bandejas de testigos de minería, algoritmos de unmixing hiper espectral, y desarrollo de detección mejorada de cristales con sensores más económicos usando técnicas de machine learning[fn:1]
 - Desarrollo de software de exploración con funciones de etiquetado rápido para integrar conocimiento experto a modelos
 - Participación en el desarrollo de U-Fo, software desarrollado en ALGES para estimación geometalúrgica. Desarrollo de algoritmo de unfolding (ISOMAP)
-  - Acenso a full time en 2016
+  - Ascenso a full time en 2016
 
 {{{cvtag(Computer Vision)}}}
 {{{cvtag(Embedded programming)}}}
@@ -142,12 +142,30 @@
 ** Newpage :ignore:
 {{{new-page}}}
 
-** Principales proyectos
+** Proyectos principales
+*** Intelliplan                                                    :ignore:
+{{{cvevent(Servicios IA para plataforma de reclutamiento, Intelliplan)}}}
+
+- Desarrollador y tech lead de múltiples servicios para incorporar IA en plataforma SaaS de reclutamiento desarrollada por Intelliplan. Los servicios implementados y roles fueron:
+  1. Búsqueda semántica de CVs dada una descripción ú otro CV (Desarrollador principal)
+  2. Asistencia en la escritura de publicaciones para búsqueda de roles (Desarrollador principal)
+  3. Portal interactivo y customatizado para clientes de la plataforma (Tech lead)
+     
+{{{cvtag(LLMs)}}}
+{{{cvtag(REST)}}}
+{{{cvtag(Python)}}}
+{{{cvtag(Embeddings)}}}
+{{{cvtag(Azure)}}}
+{{{cvtag(Terraform)}}}
+{{{cvtag(CI/CD)}}}
+{{{cvtag(Liderazgo)}}}
+\newline
+
 *** Smart meters                                                     :ignore:
 {{{cvevent(Smart Meters, IsMobile)}}}
 
-- Assessed and evaluated image ML model built for optical character recognition from electric meters using mobile phones
-- Improved portability of the model by optimizing smaller backbone without impacting performance
+- Asesoría y evaluación de modelo ML para reconocimiento óptico de dígitos en medidores eléctricos usando smart phones
+- Optimización e incremento de portabilidad del modelo principal
 
 {{{cvtag(Python)}}}
 {{{cvtag(Tensorflow)}}}
@@ -157,61 +175,61 @@
 
 *** NoBias                                                           :ignore:
 
-{{{cvevent(NoBias, Research/Internal)}}}
+{{{cvevent(NoBias, Investigación/Interno)}}}
 
-- Developed a system for removing gender bias of text, provide gender neutral suggestions and educate user to improve writing with less gender bias
-- Initial solution used transformers and word embeddings. The newer prototypes use large language models such as GPT-4 and Llama 2
-- The project was co-developed with Luleå Tekniska Universitetet with the support of Vinnova
-- A demo is available[fn:2]
-{{{cvtag(APIs)}}}
+- Desarrollo de sistema para remover sesgo de género en textos, entregando sugerencias de texto género-neutrales y educando al usuario a escribir de insesgadamente
+- Solución inicial usaba transformers y embeddings de palabras. Nuevos prototipos utilizan LLMs tales como GPT-4 y Llama 3
+- El proyecto fue co-desarrollado con la Universidad Técnica de Luleå con el auspicio de la agencia de desarrollo e innovación Vinnova
+- Un demo está actualmente disponible[fn:2]
+{{{cvtag(REST)}}}
 {{{cvtag(AWS)}}}
 {{{cvtag(Python)}}}
 {{{cvtag(Svelte)}}}
 
 \medskip
 
-*** Resource optimization :ignore:noexport:
-{{{cvevent(Developer and tech lead Resource Optimization, Internal)}}}
+*** Optimización de recursos                              :ignore:noexport:
+{{{cvevent(Desarrollador y tech lead, Interno}}}}
 
-- Developed proof of concept to create an optimal schedule of consultancy resources using convex optimization
+- Desarrollado PoC de optimización de recursos en empresas de consultoría utilizando programación lineal
   
 {{{cvtag(Python)}}}
 {{{cvtag(Google Compute Engine)}}}
 
 \medskip
 
-*** Cucumbers                                                        :ignore:
-{{{cvevent(Circular product development, Research/internal)}}}
+*** Desarrollo de producto circular (Pepinos)                     :ignore:
+{{{cvevent(Desarrollo de producto circular, Investigación)}}}
 
-- Industial collaboration project funded by Vinnova to reduce pesticides use and detect early problems in plantations
-- Creted image classification and object detetion model for detecting mold, insects and other illnesses in cucumber greenhouse plantations
-- Developed an acquistion app for mobile phones to gather data directly from experts in greenhouses of Skåne
+- Proyecto de colaboración industrial parcialmente financiado por la agencia de desarrollo e innovación Vinnova para reducir el uso de pesticidas y detectar problemas en plantaciones de forma temprana
+- Desarrollo de modelo de clasificación de imágenes y detección de objetos para la tarea de detección de moho en invernaderos de pepinos
+- Desarrollo de aplicación para smart phones para la adquisición remota de imágenes por expertos desde invernaderos en Escania 
   
 {{{cvtag(AWS Amplify)}}}
-{{{cvtag(Classification)}}}
-{{{cvtag(Object detection)}}}
+{{{cvtag(Clasificación)}}}
+{{{cvtag(Detección de objetos)}}}
 {{{cvtag(Python)}}}
 
 \medskip
 
 *** Max Burgers                                                      :ignore:
-{{{cvevent(Data Engineer for analytics team, Max Burgers)}}}
+{{{cvevent(Ingeniero de Datos para el equipo de analítica, Max Burgers)}}}
 
-- Development of data source connectors for data ingestion software
+- Desarrollo de conectores para diferentes fuentes de datos en software de ingestión
 
 {{{cvtag(C\#)}}}
 {{{cvtag(Python)}}}
-{{{cvtag(REST/SOAP APIs)}}}
+{{{cvtag(REST/SOAP)}}}
 {{{cvtag(SQL)}}}
 
 \medskip
 
 *** Telia :ignore:
-{{{cvevent(Data Engineer for Revenue Assurance PoC, Telia)}}}
+{{{cvevent(PoC ingeniería de datos para Revenue Assurance, Telia)}}}
 
-- Developed proof of concept for quantifying leakage of revenue across network and billing layers within Telia’s platforms
-- Estimation of leakage was up to 1%. Diagnosed Telia’s income could increase just by avoiding wrong invoices to consumers
-- Collaboration with team of analysts from revenue assuarance team, data analysts and data engineers from Telia
+- Desarrollada prueba de concepto para cuantificar filtramiento (leakage) de ganancias a través de capas de red y cobranza dentro de las plataformas de Telia
+- Estimación de filtramiento previa al proyecto estaba sobre el 1% de ganancias totales. Ganancias de Telia  podrían haberse incrementado tras identificación y corrección de cada caso.
+- Colaboración con equipo de analistas de Revenue Assurance, analistas de datos e ingenieros de datos de Telia.
 
 {{{cvtag(Scala/Spark)}}}
 {{{cvtag(Hive)}}}
@@ -267,44 +285,45 @@
 
 ** Educación
 *** KTH :ignore:
-{{{cvevent(MSc. Machine Learning, Kungliga Tekniska Högskolan, 2020 - 2022, Stockholm\, Sweden)}}}
+{{{cvevent(MSc. Machine Learning, Kungliga Tekniska Högskolan, 2020 - 2022, Estocolmo\, Suecia)}}}
 *** UChile :ignore:
-{{{cvevent(BSc. and professional title in Electrical Engineering, University of Chile, 2009 - 2016, Santiago\, Chile)}}}
+{{{cvevent(Ingeniería Eléctrica, Universidad de Chile, 2009 - 2016, Santiago\, Chile)}}}
+*** Colegio Craighouse                                            :ignore:
+{{{cvevent(Educación Básica y Media, Colegio Craighouse, 1994 - 2008, Santiago\, Chile)}}}
 
 ** Logros
-{{{cvachievement(\faCertificate, Udemy, Certificate in Scala/Spark)}}}
+{{{cvachievement(\faCertificate, Udemy, Certificado en Scala/Spark)}}}
 
 {{{divider}}}
 
-{{{cvachievement(\faTrophy, Excellence scholarship laureate, Becas Chile 2019 en Áreas prioritarias.)}}}
+{{{cvachievement(\faTrophy, Beca de exelencia, Becas Chile 2019 en Áreas prioritarias.)}}}
 
 {{{divider}}}
 
-{{{cvachievement(\faTrophy,KTH Hattrick award, Awarded to students with A’s in every programming assignment in Artificial
-Intelligence course.)}}}
+{{{cvachievement(\faTrophy,KTH Hattrick award, Premio para estudiantes con la nota máxima en cada tarea de programación del curso de Inteligencia Artificial.)}}}
 
 {{{divider}}}
 
-{{{cvachievement(\faTrophy, University of Chile maximal distinction, Graduated from University of Chile with the highest grades.)}}}
+{{{cvachievement(\faTrophy, Distinción máxima Universidad de Chile, Graduado de la U. de Chile con nota final 6.3.)}}}
 
 {{{divider}}}
 
-{{{cvachievement(\faTrophy, Alumnos destacados, 2013 and 2014 among the best students in Electrical Engineering at University of Chile)}}}
+{{{cvachievement(\faTrophy, Alumno destacado, Dentro de los mejores estudiantes de Ing. Eléctrica en 2013 y 2014)}}}
 
 \smallskip
 
 ** Lenguajes
 
-{{{cvskill(Spanish (native), 5)}}}
+{{{cvskill(Español (nativo), 5)}}}
 
-{{{cvskill(English (professional), 5)}}}
+{{{cvskill(Inglés (profesional), 5)}}}
 
-{{{cvskill(Swedish (A2), 2)}}}
+{{{cvskill(Sueco (A2), 2)}}}
 
 \smallskip
 
 ** Referencias
-- Referees provided on request
+- Referencias serán entregadas ante solicitud del reclutador
   
 * Back Matter :ignore:
 #+begin_export latex
