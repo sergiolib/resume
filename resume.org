@@ -103,6 +103,7 @@
 - Líder técnico en proyectos internos y externos
 - Desarrollador principal y mantenedor de múltiples servicios y productos utilizados por clientes
 - Tutor de estudiantes de tésis y practicantes
+- Acenso a Senior en nov 2023
 
 {{{cvtag(Machine Learning)}}}
 {{{cvtag(Data Engineering)}}}
@@ -110,28 +111,29 @@
 \medskip
 \newline
 
-*** Tésis                                                          :ignore:
+*** Tésis                                                         :ignore:
 
-{{{cvevent(Thesis project and internship, Elekta, 2020, Stockholm\, Sweden)}}}
+{{{cvevent(Projecto de tésis y práctica profesional, Elekta, 2020, Estocolmo\, Suecia)}}}
 
-- Dose prediction from partial dose calculations using conditional generative adversarial networks
-- Generative ML models designed for image transformations are used to calculate radiotherapy doses more efficiently than traditional methods
+- Predicción parcial de dósis en cálculos de dósis utilizando Generative Adversarial Networks condicionales
+- Modelos de Machine learning generativo diseñados para transformaciones de imágenes y acondicionados para calcular dósis de radioterapia más eficientemente que métodos tradicionales
 # - Geometric transformations for efficient prediction of radiotherapy dose (examples: voxel modeling, projections, prediction of residuals, single/multiple beams superposition)
 
 {{{cvtag(CGANs)}}}
 {{{cvtag(PyTorch)}}}
-{{{cvtag(Research)}}}
+{{{cvtag(I+D)}}}
 \medskip
 \newline
 
 *** ALGES :ignore:
 
-{{{cvevent(Research and Development Engineer, Advanced Laboratory for Geostatistical Supercomputing (ALGES), Jul 2014 - Aug 2018, Santiago\, Chile)}}}
+{{{cvevent(Ingeniero de investigación y desarrollo, Advanced Laboratory for Geostatistical Supercomputing (ALGES), Jul 2014 - Ago 2018, Santiago\, Chile)}}}
 
-- Main developer in multiple projects with partial or full state funding in Chile related to geo-metallurgical variables (ore) estimation using hyperspectral images
-- Developed algorithms for spatial and visual segmentation, gathered datasets of drill cores, explored spectral unmixing, and improved detection of crystals with alternative sensors using Machine Learning techniques[fn:1]
-- Developed exploration software with fast labeling functions for integrating expert knowledge of geologists into prediction algorithms
-- Participated in the development of U-Fo, ALGES software for mineral estimation. Wrote a surface unfolding algorithm (ISOMAP) for it.
+- Principal desarrollador de múltiples proyectos con financiamiento estatal parcial o total relacionados a estimación de variables geometalúrgicas utilizando imágenes hiper espectrales
+- Desarrollo de algoritmos de segmentación espacial y visual, adquisición de imágenes de bandejas de testigos de minería, algoritmos de unmixing hiper espectral, y desarrollo de detección mejorada de cristales con sensores más económicos usando técnicas de machine learning[fn:1]
+- Desarrollo de software de exploración con funciones de etiquetado rápido para integrar conocimiento experto a modelos
+- Participación en el desarrollo de U-Fo, software desarrollado en ALGES para estimación geometalúrgica. Desarrollo de algoritmo de unfolding (ISOMAP)
+  - Acenso a full time en 2016
 
 {{{cvtag(Computer Vision)}}}
 {{{cvtag(Embedded programming)}}}
@@ -244,21 +246,21 @@
 \smallskip
 
 ** Acerca de mi
-- Versatile, flexible Machine Learning and Data Engineer that delivers always with the highest professionalism.
+- Desarrollador de aplicaciones y sistemas complejos de Machine Learning e Ingeniero de Datos extremadamente técnico, versátil, profesional y flexible.
 
-- Background in Electrical Engineering specialized in signals processing and computer intelligence who graduated from University of Chile. I graduated from KTH, where I obtained a Master in Machine Learning.
+- Ingeniero Eléctrico de la Universidad de Chile especializado en procesamiento de señales e inteligencia computacional. Graduado de máster en Machine Learning de la Real Academia de Tecnología KTH, Estocolmo.
 
-- What moves me is making data driven technology impact people’s routines positively.
+- Mi principal motivación es generar soluciones de datos que tengan un impacto positivo en las rutinas de las personas.
 
-- I enjoy working in multidiciplinary groups and have experience in Agile working environments.
+- Disfruto de trabajar en ambientes multidiciplinarios y tengo experiencia en ambientes de trabajo Agile.
 
-- I am responsible, respectful, serious and dedicated. I always aim to keep learning, improving my skills.
+- Soy responsable, respetuoso, serio y dedicado. Siempre apunto a aprender algo nuevo y a mejorar mis habilidades.
 
-- My strengths are my capacity to provide meaningful ideas, my quality work through which I pursue excellence, and the general enthusiasm that I print in my daily actions.
+- Mis fortalezas son la capacidad de proveer de buenas ideas a mi equipo, la alta calidad de mi trabajo a través del cual busco la excelencia, y el entusiasmo en general que plasmo en mis acciones diarias.
 
-- I was born in Santiago, Chile in September, 1990. I Live in Stockholm since August, 2018.
+- Soy nacido en Santiago de Chile en septiembre de 1990 y vivo en Estocolmo desde agosto de 2018. Pretendo volver a Chile en cuanto consiga una posición permanente allí.
 
-- I love spending time with my friends and family. My hobbies include traveling, swimming, running, reading, watching series or movies, working in side projects, and keeping myself up to date with tech.
+- Mis pasatiempos incluyen viajar, natación, trotar, lectura, ver series o películas, y mantenerme al día con los últimos desarrollos tecnológicos.
 
 ** Newpage :ignore: 
 {{{new-page}}}
@@ -313,7 +315,7 @@ Intelligence course.)}}}
 * Footnotes
 [fn:2] Latest version is live in [[https://dev.nobias.se][https://dev.nobias.se]]
 
-[fn:1] For more information, read our paper: Egaña, Á.F.; Santibáñez-Leal, F.A.; Vidal, C.; Díaz, G.; Liberman, S.; Ehrenfeld, A. A Robust Stochastic Approach to Mineral Hyperspectral Analysis for Geometallurgy. Minerals 2020, 10, 1139. [[https://doi.org/10.3390/min10121139][https://doi.org/10.3390/min10121139]]
+[fn:1] Para más información en nuestro paper: Egaña, Á.F.; Santibáñez-Leal, F.A.; Vidal, C.; Díaz, G.; Liberman, S.; Ehrenfeld, A. A Robust Stochastic Approach to Mineral Hyperspectral Analysis for Geometallurgy. Minerals 2020, 10, 1139. [[https://doi.org/10.3390/min10121139][https://doi.org/10.3390/min10121139]]
 
 
 * Run code                                                         :noexport:
