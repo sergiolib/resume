@@ -95,28 +95,30 @@
 ** Empleos recientes
 *** Substorm                                                         :ignore:
 
-{{{cvevent(Desarrollador Senior de Machine Learning, Substorm, Ene 2021 - Actualidad, Estocolmo\, Suecia)}}}
+{{{cvevent(Desarrollador Senior de Machine Learning, Substorm, Ene 2021 - 2024, Estocolmo\, Suecia)}}}
 
 - Consultoría en áreas de desarrollo de aplicaciones con Machine Learning, Ingeniería de Datos, ML Ops, y desarrollo de software
 - Principal responsable de infrastructura en la nube.
-- Desarrollador de pipelines CI/CD tales como scheduling de tareas, unit/integration testing, containerización de servicios, y sistemas multi-entorno para proyectos y servicios
-- Líder técnico en proyectos internos y externos
-- Desarrollador principal y mantenedor de múltiples servicios y productos utilizados por clientes
+- Desarrollador de pipelines CI/CD tales como scheduling de tareas, unit/integration testing, containerización de servicios, y multi-entornos para proyectos
+- Desarrollador y mantenedor de múltiples servicios y productos utilizados por clientes
 - Tutor de estudiantes de tésis y practicantes
-- Ascenso a Senior en nov 2023
+- Ascenso a Senior en noviembre de 2023
 
 {{{cvtag(Machine Learning)}}}
-{{{cvtag(Data Engineering)}}}
-{{{cvtag(ML/DevOps)}}}
+{{{cvtag(Ingeniería de datos)}}}
+{{{cvtag(MLOps/DevOps)}}}
+{{{cvtag(Liderazgo)}}}
+{{{cvtag(Consultoría)}}}
+{{{cvtag(Desarrollo de productos)}}}
 \medskip
 \newline
 
 *** Tésis                                                         :ignore:
 
-{{{cvevent(Projecto de tésis y práctica profesional, Elekta, 2020, Estocolmo\, Suecia)}}}
+{{{cvevent(Proyecto de tésis y práctica profesional, Elekta, 2020, Estocolmo\, Suecia)}}}
 
-- Predicción parcial de dósis en cálculos de dósis utilizando Generative Adversarial Networks condicionales
-- Modelos de Machine learning generativo diseñados para transformaciones de imágenes y acondicionados para calcular dósis de radioterapia más eficientemente que métodos tradicionales
+- Predicción parcial de cálculo de dósis para radioterapias utilizando Generative Adversarial Networks condicionales
+- Modelos de Machine learning generativo diseñados para transformaciones de imágenes y acondicionados para calcular dósis de radioterapia más eficientemente que métodos tradicionales [fn:3]
 # - Geometric transformations for efficient prediction of radiotherapy dose (examples: voxel modeling, projections, prediction of residuals, single/multiple beams superposition)
 
 {{{cvtag(CGANs)}}}
@@ -130,7 +132,7 @@
 {{{cvevent(Ingeniero de investigación y desarrollo, Advanced Laboratory for Geostatistical Supercomputing (ALGES), Jul 2014 - Ago 2018, Santiago\, Chile)}}}
 
 - Principal desarrollador de múltiples proyectos con financiamiento estatal parcial o total relacionados a estimación de variables geometalúrgicas utilizando imágenes hiper espectrales
-- Desarrollo de algoritmos de segmentación espacial y visual, adquisición de imágenes de bandejas de testigos de minería, algoritmos de unmixing hiper espectral, y desarrollo de detección mejorada de cristales con sensores más económicos usando técnicas de machine learning[fn:1]
+- Desarrollo de algoritmos de segmentación espacial y visual, adquisición de imágenes de bandejas de testigos de minería, algoritmos de unmixing hiper espectral [fn:4], y desarrollo de detección mejorada de cristales con sensores más económicos usando técnicas de machine learning[fn:1]
 - Desarrollo de software de exploración con funciones de etiquetado rápido para integrar conocimiento experto a modelos
 - Participación en el desarrollo de U-Fo, software desarrollado en ALGES para estimación geometalúrgica. Desarrollo de algoritmo de unfolding (ISOMAP)
   - Ascenso a full time en 2016
@@ -139,28 +141,7 @@
 {{{cvtag(Programación embebida)}}}
 {{{cvtag(Machine Learning)}}}
 
-** Newpage :ignore:
-{{{new-page}}}
-
 ** Proyectos principales
-*** Intelliplan                                                    :ignore:
-{{{cvevent(Servicios IA para plataforma de reclutamiento, Intelliplan)}}}
-
-- Desarrollador y tech lead de múltiples servicios para incorporar IA en plataforma SaaS de reclutamiento desarrollada por Intelliplan. Los servicios implementados y roles fueron:
-  1. Búsqueda semántica de CVs dada una descripción ú otro CV (Desarrollador principal)
-  2. Asistencia en la escritura de publicaciones para búsqueda de roles (Desarrollador principal)
-  3. Portal interactivo y customatizado para clientes de la plataforma (Tech lead)
-     
-{{{cvtag(LLMs)}}}
-{{{cvtag(REST)}}}
-{{{cvtag(Python)}}}
-{{{cvtag(Embeddings)}}}
-{{{cvtag(Azure)}}}
-{{{cvtag(Terraform)}}}
-{{{cvtag(CI/CD)}}}
-{{{cvtag(Liderazgo)}}}
-\newline
-
 *** Smart meters                                                     :ignore:
 {{{cvevent(Smart Meters, IsMobile)}}}
 
@@ -175,12 +156,12 @@
 
 *** NoBias                                                           :ignore:
 
-{{{cvevent(NoBias, Investigación/Interno)}}}
+{{{cvevent(NoBias, Investigación)}}}
 
 - Desarrollo de sistema para remover sesgo de género en textos, entregando sugerencias de texto género-neutrales y educando al usuario a escribir de insesgadamente
 - Solución inicial usaba transformers y embeddings de palabras. Nuevos prototipos utilizan LLMs tales como GPT-4 y Llama 3
 - El proyecto fue co-desarrollado con la Universidad Técnica de Luleå con el auspicio de la agencia de desarrollo e innovación Vinnova
-- Un demo está actualmente disponible[fn:2]
+- Un demo está  disponible actualmente[fn:2]
 {{{cvtag(REST)}}}
 {{{cvtag(AWS)}}}
 {{{cvtag(Python)}}}
@@ -189,7 +170,7 @@
 \medskip
 
 *** Optimización de recursos                              :ignore:noexport:
-{{{cvevent(Desarrollador y tech lead, Interno}}}}
+{{{cvevent(Desarrollador y tech lead}}}}
 
 - Desarrollado PoC de optimización de recursos en empresas de consultoría utilizando programación lineal
   
@@ -237,6 +218,24 @@
 {{{cvtag(SQL)}}}
 
 \medskip
+*** Intelliplan                                                    :ignore:
+{{{cvevent(Servicios IA para plataforma de reclutamiento, Intelliplan)}}}
+
+- Desarrollador y tech lead de múltiples servicios para incorporar IA en plataforma SaaS de reclutamiento desarrollada por Intelliplan. Los servicios implementados y roles fueron:
+  1. Búsqueda semántica de CVs dada una descripción ú otro CV (Desarrollador principal)
+  2. Asistencia en la escritura de publicaciones para búsqueda de roles (Desarrollador principal)
+  3. Portal interactivo y customatizado para clientes de la plataforma (Tech lead)
+     
+{{{cvtag(LLMs)}}}
+{{{cvtag(REST)}}}
+{{{cvtag(Python)}}}
+{{{cvtag(Embeddings)}}}
+{{{cvtag(Azure)}}}
+{{{cvtag(Terraform)}}}
+{{{cvtag(CI/CD)}}}
+{{{cvtag(Liderazgo)}}}
+\newline
+
 * CV Column 2 :ignore:
 # Switch to the right column - will automatically move to the next page.
 #+begin_export latex
@@ -276,9 +275,9 @@
 
 - Mis fortalezas son la capacidad de proveer de buenas ideas a mi equipo, la alta calidad de mi trabajo a través del cual busco la excelencia, y el entusiasmo en general que plasmo en mis acciones diarias.
 
-- Soy nacido en Santiago de Chile en septiembre de 1990 y vivo en Estocolmo desde agosto de 2018. Pretendo volver a Chile en cuanto consiga una posición permanente allí.
+- Soy nacido en Santiago de Chile en septiembre de 1990.
 
-- Mis pasatiempos incluyen viajar, natación, trotar, lectura, ver series o películas, y mantenerme al día con los últimos desarrollos tecnológicos.
+- Mis pasatiempos incluyen viajar, natación, trotar, lectura, ver series o películas, cocinar, y mantenerme al día con los últimos desarrollos tecnológicos.
 
 ** Newpage :ignore: 
 {{{new-page}}}
@@ -300,7 +299,7 @@
 
 {{{divider}}}
 
-{{{cvachievement(\faTrophy,KTH Hattrick award, Premio para estudiantes con la nota máxima en cada tarea de programación del curso de Inteligencia Artificial.)}}}
+{{{cvachievement(\faTrophy,Premio KTH Hattrick, Reconocimiento para estudiantes con la nota máxima en cada tarea de programación del curso de Inteligencia Artificial.)}}}
 
 {{{divider}}}
 
@@ -332,6 +331,8 @@
 #+end_export
 
 * Footnotes
+[fn:4] Liberman Bronfman, S. F. (2016). Técnicas de aplicaciones de separación de señales aplicadas en imágenes hiper espectrales.
+[fn:3] Liberman Bronfman, S. F. (2021). 3D Dose Prediction from Partial Dose Calculations using Convolutional Deep Learning models (Dissertation). Recuperado de https://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-305903
 [fn:2] Latest version is live in [[https://dev.nobias.se][https://dev.nobias.se]]
 
 [fn:1] Para más información en nuestro paper: Egaña, Á.F.; Santibáñez-Leal, F.A.; Vidal, C.; Díaz, G.; Liberman, S.; Ehrenfeld, A. A Robust Stochastic Approach to Mineral Hyperspectral Analysis for Geometallurgy. Minerals 2020, 10, 1139. [[https://doi.org/10.3390/min10121139][https://doi.org/10.3390/min10121139]]
