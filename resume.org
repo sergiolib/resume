@@ -136,7 +136,7 @@
   - Ascenso a full time en 2016
 
 {{{cvtag(Computer Vision)}}}
-{{{cvtag(Embedded programming)}}}
+{{{cvtag(Programación embebida)}}}
 {{{cvtag(Machine Learning)}}}
 
 ** Newpage :ignore:
